@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .section{
     width: 100%;
@@ -18,6 +19,7 @@
     padding-top: 100px;
 }
 .content-section{
+    margin-top: 100px;
     float: left;
     width: 55%;
 }
@@ -26,7 +28,7 @@
     width: 40%;
 }
 .image-section img{
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 .content-section .title{
@@ -34,20 +36,21 @@
     font-size: 28px;
 }
 .content-section .content h3{
+    text-align: center;
     margin-top: 20px;
-    font-size: 19px;
-    color: #5d5d5d;
+    font-size: 35px;
+    color: whitesmoke;
 }
 .content-section .content p{
     margin-top: 10px;
     color: #5d5d5d;
-    font-family: sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 .content-section .title h1{
+    text-align: center;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 60px;
     color: whitesmoke;
 }
 
