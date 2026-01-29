@@ -198,6 +198,29 @@ li {
   h1 { font-size: 28px; }
   nav a { margin-right: 10px; }
 }
+
+/* Убираем подчёркивания у всех ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Меню */
+nav a {
+  text-decoration: none;
+}
+
+/* Кнопки-ссылки */
+.btn,
+.btn.secondary {
+  text-decoration: none;
+}
+
+/* Контакты */
+.icon a {
+  text-decoration: none;
+}
+
 </style>
 </head>
 
@@ -229,7 +252,6 @@ li {
 
   <div class="buttons">
     <a class="btn" href="#contacts">Связаться</a>
-    <a class="btn secondary" href="Alexander_Fullstack_Junior.pdf" download>Скачать PDF</a>
   </div>
 </header>
 
@@ -308,3 +330,4 @@ function toggleTheme() {
 </script>
 </body>
 </html>
+
